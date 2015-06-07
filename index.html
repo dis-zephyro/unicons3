@@ -254,7 +254,29 @@
                     </div>
 
                     <div class="page-center">
-
+                        <h2 class="text-center">Отзывы наших клиентов</h2>
+                            <div class="reply">
+                                <ul class="reply__item clearfix">
+                                    <li>
+                                        <img class="img-responsive" src="img/reply__item01_thumb.jpg" alt="">
+                                        <a class="reply__link" href="img/reply_item01.jpg"></a>
+                                    </li>
+                                    <li>
+                                        <img class="img-responsive" src="img/reply__item01_thumb.jpg" alt="">
+                                        <a class="reply__link" href="img/reply_item01.jpg"></a>
+                                    </li>
+                                    <li>
+                                        <img class="img-responsive" src="img/reply__item01_thumb.jpg" alt="">
+                                        <a class="reply__link" href="img/reply_item01.jpg"></a>
+                                    </li>
+                                    <li>
+                                        <img class="img-responsive" src="img/reply__item01_thumb.jpg" alt="">
+                                        <a class="reply__link" href="img/reply_item01.jpg"></a>
+                                    </li>
+                                </ul>
+                                <span class="reply__nav prev"></span>
+                                <span class="reply__nav next"></span>
+                            </div>
                     </div>
                 </div>
             </section>
@@ -276,7 +298,54 @@
                     </div>
 
                     <div class="page-center">
-
+                        <div class="clearfix">
+                            <div class="action">
+                                <div class="text1">Внимание</div>
+                                <h2>
+                                    <span>Акция</span>
+                                </h2>
+                                <div class="text2">Оставьте заявку на расчёт  стоимости обслуживания системы и получите</div>
+                                <div class="text3">бесплатное обслуживание Вашей  системы в подарок</div>
+                            </div>
+                            <div class="form-inner form-main">
+                                <div class="form-header">Форма заявки на расчёт стоимости<br/>обслуживания системы</div>
+                                <form enctype="multipart/form-data" method="post" class="cform mini form">
+                                    <ol class="cf-ol">
+                                        <li>
+                                            <label></label>
+                                            <input type="text" name="cf8_field_1" class="single" value="Введите Ваше имя" onfocus="clearField(this)" onblur="setField(this)"/>
+                                            <span class="reqtxt">Не указано имя</span>
+                                        </li>
+                                        <li>
+                                            <label></label>
+                                            <input type="text" name="cf8_field_2" class="single fldrequired" value="Введите Ваш телефон" onfocus="clearField(this)" onblur="setField(this)"/>
+                                            <span class="reqtxt">Не указан телефон</span>
+                                        </li>
+                                        <li>
+                                            <label><span></span></label>
+                                            <select class="select">
+                                                <option>Выберете тип системы</option>
+                                                <option>Система 1</option>
+                                                <option>Система 2</option>
+                                                <option>Система 3</option>
+                                                <option>Система 4</option>
+                                                <option>Система 5</option>
+                                                <option>Система 6</option>
+                                            </select>
+                                        </li>
+                                        <li id="li--4">
+                                            <label for="cf_uploadfile8-4">
+                                                <span>Прикрепите план здания (БТИ</span>
+                                            </label>
+                                            <input type="file" name="cf_uploadfile8[]" id="cf_uploadfile8-4" class="cf_upload upload">
+                                        </li>
+                                    </ol>
+                                    <p class="cf-sb">
+                                        <input type="submit" name="sendbutton8" class="sendbutton btn" value="Оставить заявку" onclick="return cforms_validate('8', false)"/>
+                                    </p>
+                                </form>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </section>
@@ -313,8 +382,8 @@
         </div>
 
         <div class="hidden">
-            <div id="consultation">
-                <div class="form-header">Оформите заявку</div>
+            <div class="form-inner" id="consultation">
+                <div class="form-header">Форма заявки на расчёт стоимости<br/>обслуживания системы</div>
                 <form enctype="multipart/form-data" method="post" class="cform mini form">
                     <ol class="cf-ol">
                         <li>
@@ -339,18 +408,11 @@
                                 <option>Система 6</option>
                             </select>
                         </li>
-                        <li id="li--5">
-                            <label for="cf_uploadfile8-4">
-                                <span>Прикрепите план здания (БТИ</span>
-                            </label>
-                            <input type="file" name="cf_uploadfile8[]" id="cf_uploadfile8-4" class="cf_upload upload">
-                        </li>
                     </ol>
                     <p class="cf-sb">
-                        <input type="submit" name="sendbutton8" class="sendbutton btn" value="Отправить сообщение" onclick="return cforms_validate('8', false)"/>
+                        <input type="submit" name="sendbutton8" class="sendbutton btn" value="Оставить заявку" onclick="return cforms_validate('8', false)"/>
                     </p>
                 </form>
-
             </div>
         </div>
 
