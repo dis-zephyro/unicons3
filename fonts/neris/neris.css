@@ -1,0 +1,19 @@
+@font-face {
+    font-family: 'neristhin';
+    src: url('neris-thin.eot');
+    src: url('neris-thin.eot?#iefix') format('embedded-opentype'),
+         url('neris-thin.woff') format('woff'),
+         url('neris-thin.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'nerislight';
+    src: url('neris-light.eot');
+    src: url('neris-light.eot?#iefix') format('embedded-opentype'),
+         url('neris-light.woff') format('woff'),
+         url('neris-light.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
