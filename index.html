@@ -11,6 +11,7 @@
 
         <link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="js/vendor/slick/slick.css">
+        <link rel="stylesheet" href="js/vendor/jquery.fancybox/jquery.fancybox.css">
         <link rel="stylesheet/less" href="less/main.less">
         <script src="js/vendor/less.min.js"></script>
         <script src="js/vendor/modernizr-2.8.3.min.js"></script>
@@ -45,11 +46,12 @@
                         <div class="worktime">Круглосуточно без выходных</div>
                     </div>
 
-                    <div class="block01__logo ir">Юникос - Подготовка и консалтинг документов по Пожарной безопасности<</div>
-                    <h1>
-                        <span class="first">Подготовка и консалтинг документов<br/>по Пожарной безопасности</span>
-                        <span class="last">Во всех регионах РФ под ключ</span>
-                    </h1>
+                    <div class="block01__logo ir">Юникос - Подготовка и консалтинг документов по Пожарной безопасности</div>
+                    <h1><span class="first">Обслуживание пожарных систем <br/>и сигнализаций всех видов!</span></h1>
+                    <div class="text"><span class="line">Экономьте до 30%</span> на обслуживании <span class="lead">уже завтра!</span>
+                        <br/>В Москве и московской области</div>
+
+                    <span class="move-down"></span>
                 </div>
             </section>
             <!-- End of block01--->
@@ -67,22 +69,50 @@
                         <div class="phone">8 800 775 81 98</div>
                         <div class="worktime">Круглосуточно без выходных</div>
                     </div>
+
+                    <div class="page-center">
+                        <h2>Скорее всего вы столкнулись<br/>со следующими проблемами</h2>
+                        <ul class="problem">
+                            <li class="item1">Ложные<br/>срабатывания системы</li>
+                            <li class="item2">Скоро придет срок<br/>проверки, а система<br/>не работает</li>
+                            <li class="item3">Некачественное<br/>и дорогое обслуживание<br/>системы</li>
+                            <li class="item4">Проблема с которой<br/>столкнулся<br/>потенциальный клиент</li>
+                        </ul>
+                        <p class="text1">Введу некачественного обслуживания возможны штрафы в размере десятков тысяч рублей<br/>при проведении плановой проверки и осмотра системы Гос. пожар надзором.</p>
+                        <p class="text2">Доверьте обслуживание профессионалам</p>
+                        <p class="text3">8 800 777 55 55</p>
+                    </div>
                 </div>
             </section>
             <!-- End of block02--->
             <!-- block03--->
             <section class="section block03" id="section03">
                 <div class="container">
-                    <ul class="topnav">
+                    <ul class="topnav invert">
                         <li><a href="#">О компании</a></li>
                         <li><a href="#">Услуги</a></li>
                         <li><a href="#">Новости</a></li>
                         <li><a href="#">Сотрудничество</a></li>
                         <li><a href="#">Контакты</a></li>
                     </ul>
-                    <div class="top-contact">
+                    <div class="top-contact invert">
                         <div class="phone">8 800 775 81 98</div>
                         <div class="worktime">Круглосуточно без выходных</div>
+                    </div>
+
+                    <div class="page-center">
+                        <h2>Мы предлагаем Вам</h2>
+                        <ul class="service clearfix">
+                            <li class="item1">Регулярное<br/>обслуживание<br/>систем всех видов</li>
+                            <li class="item2">Диагностирование<br/>и выявление<br/>неисправности системы</li>
+                            <li class="item3">Восстановление<br/>работоспособности<br/>системы</li>
+                            <li class="item4">Устранение<br/>предписаний<br/>гос. Пож. надзора</li>
+                        </ul>
+                        <h3>Дополнительные услуги</h3>
+                        <ul class="custom-service clearfix">
+                            <li class="item1">Обучение персонала по работе<br/>с системой</li>
+                            <li class="item2">Организация дежурства<br/>в праздничные и выходные дни</li>
+                        </ul>
                     </div>
                 </div>
             </section>
@@ -101,6 +131,31 @@
                         <div class="phone">8 800 775 81 98</div>
                         <div class="worktime">Круглосуточно без выходных</div>
                     </div>
+
+                    <div class="page-center">
+                        <h2 class="text-center">Честные и понятные цены</h2>
+                        <p class="text-center text1">Цена обслуживание систем формируются исходя из норма часа.<br/>Таким образом вы видите из чего формируется итоговая стоимость обслуживания.</p>
+
+                        <ul class="price clearfix">
+                            <li>
+                                <div class="price__text">Ежемесячное<br/>обслуживание</div>
+                                <div class="price__num">от <span>100</span> руб.</div>
+                                <div class="price__legend">за норма час</div>
+                                <div class="price__arrow-left"></div>
+                            </li>
+                            <li>
+                                <div class="price__text">Ежеквартальное<br/>обслуживание</div>
+                                <div class="price__num">от <span>100</span> руб.</div>
+                                <div class="price__legend">за норма час</div>
+                                <div class="price__arrow-right"></div>
+                            </li>
+                        </ul>
+                        <p class="text-center text2">Стоимость нормо-часа зависит от типа установленной системы и объема обязательно проводимых работ</p>
+                        <p class="text-center text3">с перечнем проводимых работ вы можете <a href="#">ознакомиться тут</a></p>
+                        <div class="text-center">
+                            <a href="#consultation" class="btn popup">Получить консультацию</a>
+                        </div>
+                    </div>
                 </div>
             </section>
             <!-- End of block04--->
@@ -117,6 +172,41 @@
                     <div class="top-contact">
                         <div class="phone">8 800 775 81 98</div>
                         <div class="worktime">Круглосуточно без выходных</div>
+                    </div>
+
+                    <div class="page-center">
+                        <h2>Доверьте обслуживание<br/>профессионалам</h2>
+                        <p class="text1">Все работы по обслуживанию проводятся согласно <a href="#">нормативному документу</a><br/>что исключает штрафы и предписания от гос. Пож. надзора</p>
+
+                        <ul class="certificate clearfix">
+                            <li>
+                                <div class="inner">
+                                    <img src="img/sertficate-logo.png" alt="сертификат">
+                                    <a class="certificate-img" href="img/sertficate01.jpg">
+                                        <img src="img/sertficate01.jpg" alt="сертификат">
+                                    </a>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="inner">
+                                    <img src="img/sertficate-logo.png" alt="сертификат">
+                                    <a class="certificate-img" href="img/sertficate01.jpg">
+                                        <img src="img/sertficate01.jpg" alt="сертификат">
+                                    </a>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="inner">
+                                    <img src="img/sertficate-logo.png" alt="сертификат">
+                                    <a class="certificate-img" href="img/sertficate01.jpg">
+                                        <img src="img/sertficate01.jpg" alt="сертификат">
+                                    </a>
+                                </div>
+                            </li>
+                        </ul>
+                        <div class="text-center">
+                            <a href="#consultation" class="btn popup">Рассчитать стоимость обслуживания</a>
+                        </div>
                     </div>
                 </div>
             </section>
@@ -135,6 +225,16 @@
                         <div class="phone">8 800 775 81 98</div>
                         <div class="worktime">Круглосуточно без выходных</div>
                     </div>
+
+                    <div class="page-center">
+                        <div class="box">
+                            <div class="box-inner"></div>
+                            <div class="box-text">
+                                <h2>Мы<br/>гарантируем вам</h2>
+                                <p>Мы гарантируем Вам отсутствие штрафов и предписаний от гос. Пож. Надзора <span>или устраним все неисправности за свой счёт!</span></p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </section>
             <!-- End of block06--->
@@ -152,6 +252,10 @@
                         <div class="phone">8 800 775 81 98</div>
                         <div class="worktime">Круглосуточно без выходных</div>
                     </div>
+
+                    <div class="page-center">
+
+                    </div>
                 </div>
             </section>
             <!-- End of block07--->
@@ -168,6 +272,10 @@
                     <div class="top-contact">
                         <div class="phone">8 800 775 81 98</div>
                         <div class="worktime">Круглосуточно без выходных</div>
+
+                    </div>
+
+                    <div class="page-center">
 
                     </div>
                 </div>
@@ -202,6 +310,48 @@
                 </div>
             </section>
             <!-- End of block09--->
+        </div>
+
+        <div class="hidden">
+            <div id="consultation">
+                <div class="form-header">Оформите заявку</div>
+                <form enctype="multipart/form-data" method="post" class="cform mini form">
+                    <ol class="cf-ol">
+                        <li>
+                            <label></label>
+                            <input type="text" name="cf8_field_1" class="single" value="Введите Ваше имя" onfocus="clearField(this)" onblur="setField(this)"/>
+                            <span class="reqtxt">Не указано имя</span>
+                        </li>
+                        <li>
+                            <label></label>
+                            <input type="text" name="cf8_field_2" class="single fldrequired" value="Введите Ваш телефон" onfocus="clearField(this)" onblur="setField(this)"/>
+                            <span class="reqtxt">Не указан телефон</span>
+                        </li>
+                        <li>
+                            <label><span></span></label>
+                            <select class="select">
+                                <option>Выберете тип системы</option>
+                                <option>Система 1</option>
+                                <option>Система 2</option>
+                                <option>Система 3</option>
+                                <option>Система 4</option>
+                                <option>Система 5</option>
+                                <option>Система 6</option>
+                            </select>
+                        </li>
+                        <li id="li--5">
+                            <label for="cf_uploadfile8-4">
+                                <span>Прикрепите план здания (БТИ</span>
+                            </label>
+                            <input type="file" name="cf_uploadfile8[]" id="cf_uploadfile8-4" class="cf_upload upload">
+                        </li>
+                    </ol>
+                    <p class="cf-sb">
+                        <input type="submit" name="sendbutton8" class="sendbutton btn" value="Отправить сообщение" onclick="return cforms_validate('8', false)"/>
+                    </p>
+                </form>
+
+            </div>
         </div>
 
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
