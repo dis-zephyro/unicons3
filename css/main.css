@@ -285,21 +285,21 @@ body {
   background-size: cover;
 }
 .block04 .page-center {
-  height: 580px;
-  margin-top: -290px;
+  height: 550px;
+  margin-top: -240px;
 }
 .block04 h2 {
   margin-bottom: 20px;
   text-transform: uppercase;
 }
 .block04 .text1 {
-  margin-bottom: 40px;
+  margin-bottom: 30px;
 }
 .block04 .text2 {
   margin-bottom: 10px;
 }
 .block04 .text3 {
-  margin-bottom: 50px;
+  margin-bottom: 40px;
   text-transform: uppercase;
 }
 .block04 .text3 a {
@@ -378,8 +378,8 @@ body {
   background-size: cover;
 }
 .block05 .page-center {
-  height: 550px;
-  margin-top: -275px;
+  height: 570px;
+  margin-top: -250px;
 }
 .block05 h2 {
   margin-bottom: 20px;
@@ -623,7 +623,8 @@ body {
 .block09 .contact .logo {
   width: 170px;
   height: 170px;
-  margin: 0 auto 15px auto;
+  margin-left: 270px;
+  margin-bottom: 15px;
   background: url("../img/block09__logo.png") 0 0 no-repeat;
 }
 .block09 .contact li {
@@ -830,6 +831,19 @@ body {
   background: #b76f08;
   text-decoration: none;
   border: 1px solid #b76f08;
+}
+.preloader-inner {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1000;
+  background: #071329;
+}
+.preloader-inner .wrap {
+  width: 100%;
+  height: 100%;
+  position: relative;
 }
 .preloader {
   position: fixed;
