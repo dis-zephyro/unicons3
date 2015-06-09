@@ -306,7 +306,7 @@ body {
   text-decoration: underline;
 }
 .block04 .price {
-  width: 520px;
+  width: 510px;
   height: 215px;
   overflow: hidden;
   margin: 0 auto 50px auto;
@@ -318,7 +318,7 @@ body {
   line-height: 1;
   color: #121017;
   position: relative;
-  margin-right: 32px;
+  margin: 0  16px;
   padding: 40px 20px 20px 30px;
 }
 .block04 .price li .price__text {
@@ -693,6 +693,12 @@ body {
 }
 .top-contact.invert .worktime {
   color: #332b2f;
+}
+.text-popup {
+  width: 800px;
+  padding: 25px 35px;
+  background: #000;
+  color: #fff;
 }
 .form-inner {
   color: #fff;
