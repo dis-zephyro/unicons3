@@ -44,7 +44,7 @@ $(document).ready(function() {
         padding: '0'
     });
 
-    $(".reply__link").fancybox({
+    $(".reply__link, .certificate-img").fancybox({
         padding: '0'
     });
 });
