@@ -34,7 +34,8 @@ $(document).ready(function() {
             navigationPosition: 'right',
             showActiveTooltip: true,
             responsive: 980,
-            anchors: ['block01', 'block02', 'block03', 'block04', 'block05', 'block06', 'block07', 'block08', 'block09']
+            anchors: ['block01', 'block02', 'block03', 'block04', 'block05', 'block06', 'block07', 'block08', 'block09'],
+            navigationTooltips: ['Первая', 'Вторая', 'Третья', 'Четвертая', 'Пятая', 'Шестая', 'Седьмая', 'Восьмая', 'Контакты']
         });
 
     }
