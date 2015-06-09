@@ -646,6 +646,14 @@ body {
 .block09 .contact li.item2 {
   margin-bottom: 15px;
 }
+.top-block {
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 9999;
+  height: 50px;
+  position: fixed;
+}
 .topnav {
   left: 0;
   top: 60px;
