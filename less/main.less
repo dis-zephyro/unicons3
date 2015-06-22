@@ -727,7 +727,7 @@ body {
 // -- Topline -----------
 
 .top-block {
-	top:0;
+	top:40px;
 	left: 0;
 	right: 0;
 	z-index: 9999;
@@ -736,11 +736,9 @@ body {
 }
 
 .topnav {
-	left: 0;
-	top:60px;
+	z-index: 999;
+	float: left;
 	width: 600px;
-	height: 30px;
-	position: absolute;
 
 	li {
 		margin: 0 12px;
@@ -772,12 +770,11 @@ body {
 }
 
 .top-contact {
-	top: 45px;
-	right: 0;
+	z-index: 999;
+	float: right;
 	width: 220px;
 	height: 50px;
 	text-align: right;
-	position: absolute;
 
 	.phone {
 		color: #fff;

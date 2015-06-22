@@ -647,7 +647,7 @@ body {
   margin-bottom: 15px;
 }
 .top-block {
-  top: 0;
+  top: 40px;
   left: 0;
   right: 0;
   z-index: 9999;
@@ -655,11 +655,9 @@ body {
   position: fixed;
 }
 .topnav {
-  left: 0;
-  top: 60px;
+  z-index: 999;
+  float: left;
   width: 600px;
-  height: 30px;
-  position: absolute;
 }
 .topnav li {
   margin: 0 12px;
@@ -682,12 +680,11 @@ body {
   color: #fff;
 }
 .top-contact {
-  top: 45px;
-  right: 0;
+  z-index: 999;
+  float: right;
   width: 220px;
   height: 50px;
   text-align: right;
-  position: absolute;
 }
 .top-contact .phone {
   color: #fff;
